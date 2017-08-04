@@ -1,0 +1,290 @@
+
+/*.home-Gallery{*/
+  
+/*}*/
+
+
+/*#about_main_pic{*/
+/*  height:450px;*/
+/*  width:1360px;*/
+
+/*}*/
+/*.jumbotron{*/
+/*  background: transparent;*/
+/*}*/
+
+#info{
+  background-color:grey;
+  height:400px;
+}
+
+#team{
+  background-color:grey;
+  height:400px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #fff;
+  margin-bottom: -20px;
+}
+
+header {
+  padding: 20px;
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+}
+
+header h5 {
+  font-weight: 700;
+  margin: 0;
+  font-family: Cursive;
+  color: black;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  font-weight: 800;
+  /*letter-spacing: 1px;*/
+}
+
+header p {
+  /*padding: 0 20px;*/
+  margin-left: 3px;
+  margin: 0;
+  color: black;
+}
+
+header a:hover { 
+     text-decoration: none;
+}
+
+a { 
+  margin: 8px; 
+  color: black;
+}
+
+#line {  position: absolute;
+width: 410px;
+height: 0px;
+left: 485px;
+top: 1050px;
+border: 1px solid #000000;
+transform: rotate(90.06deg);  
+} 
+
+.bg-1 { 
+   padding-top: 70px;
+   padding-bottom: 70px;
+   background-color: #1abc9c; 
+}
+
+/*.jumbotron { */
+/*     background-image: url("images/home.jpg");*/
+/*     background-size: cover;*/
+/*     display: flex;*/
+/*     height: 600px;*/
+/*     margin-bottom: 10px;*/
+/*} */
+
+.jumbo2 { 
+     background-image: url("images/lance.jpg");
+     background-size: cover;
+     display: flex;
+     height: 300px;
+     margin-bottom: 10px; 
+}
+
+/*Footer's Code --------------------------> */
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  /*background-image: url("http://cdn.ek.aero/us/english/images/New-York-1_tcm272-2256848.jpg");*/
+     color: #FFF;
+    background: black;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 493px; 
+}
+
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+ footer .col-sm-4 {
+   color: #FFF; 
+}
+
+/*.col-sm-6 {*/
+/*   font-family: Cursive;  */
+/*   text-align: center;*/
+/*   border: 2px solid black;*/
+/*   font-size: 14px;*/
+/*}*/
+
+footer .row {
+  display: flex;
+  align-items: center;
+}
+/*------------------------------------->*/
+
+#text { 
+position: absolute;
+width: 660px;
+left: 690px;
+top: 990px;  
+} 
+
+#img1 { 
+  top: 100px;
+  height: 200px;
+  width: 200px;
+}
+
+#img2 { 
+   left: 80px;
+   top: 100px;
+   height: 200px;
+   width: 200px;
+} 
+
+#img3 { 
+  top: 330px;
+  left: -400px;
+  height: 200px;
+  width: 200px;
+} 
+
+#img4 { 
+   top: 330px;
+   left: -310px;
+   height: 200px;
+   width: 200px;
+} 
+
+.jumbotron-fluid { 
+    size: cover; 
+}
+
+#Us{
+  /*background-color: grey;*/
+  text-align: center;
+  padding: 20px;
+  margin-top:20px;
+  margin-left: 80px;
+  width:600px;
+}
+p{
+  color:black;
+  margin: 0 0 0;
+} 
+button{
+  padding-bottom: -20px;
+  margin-top: 20px;
+}
+input{
+  margin:5px;
+}
+#line2 {  
+position: absolute;
+width: 320px;
+height: 0px;
+left: 570px;
+top: 340px;
+border: 1px solid #000000;
+transform: rotate(90.06deg);  
+} 
+
+hr{
+  height: 2px;
+  background-color: black;
+  padding: 1px 1px 1px 1px;
+}
+
+.hr2 {
+  height: 0.5px;
+  background-color: black;
+  padding: 0.4px 0.4px 0.4px 0.4px;
+}
+
+#images { 
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+} 
+
+#images2 { 
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+} 
+
+/*#employeer { */
+/*    margin: 80px;*/
+/*    font-size: 30px;*/
+/*    width: 200px;*/
+/*} */
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    /*margin-left: 100px;*/
+}
+
+.form-control{ 
+   width: 500px; 
+   /*margin-left:4px;*/
+}
+
+.form-group > button{
+  /*margin-left: 90px;*/
+}
+
+/*#twitter { */
+/*    padding:10px 12px;*/
+/*    -o-transition:.5s;*/
+/*    -ms-transition:.5s;*/
+/*    -moz-transition:.5s;*/
+/*    -webkit-transition:.5s;*/
+/*    transition: .5s;*/
+/*    background-color: #322f30;*/
+/*} */
+
+/*#twitter: hover { */
+/*    background-color: #00aced;*/
+/*} */
+
+.hoverAnimate {
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right:20px;
+    transition: .5s;
+    background-color: black;
+    margin-right:30px;
+}
+.hoverAnimate:hover {
+    background-color: #00aced;
+    padding: 10px 10px 10px 10px;
+}
+
+.hoverAnimate > img{
+ /*padding:2px;*/
+}

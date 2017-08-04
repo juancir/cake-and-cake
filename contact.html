@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home - Lou's Cakes & Bakes</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="//www.freefavicon.com/freefavicons/animal/cat--5-152-85909.png" type="image/x-icon" size="32x32">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+
+    #map {
+      height: 400px;
+      width: 400px;
+      margin-left: 150px;
+      margin-top: 20px;
+    }
+
+    /* Optional: Makes the sample page fill the window. */
+
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+
+</head>
+
+<body>
+  <header class="container">
+    <div class="row">
+      <h5 class="col-sm-8 navbar-brand">Lou's Cakes and Bakes</h5>
+      <nav class="col-sm-4">
+        <p><a href="home.html">Home</a></p>
+        <p><a href="about.html">About</a></p>
+        <p> <a href="contact.html">Contact Us</a></p>
+        <p><a href="checkout.html">Order</a></p>
+        <p><a href="gallery.html">Gallery</a></p>
+      </nav>
+    </div>
+    <strong><hr></strong>
+  </header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <form action="https://formspree.io/louisgabrie1450@gmail.com" method="POST">
+        <div class="form-group">
+          <label>Name:</label>
+          <input type="text" name="Name:" class="form-control" placeholder="John Doe">
+        </div>
+        <div class="form-group">
+          <label>Email:</label>
+          <input type="email" name="Email:" class="form-control" placeholder="example@gmail.com"></input>
+        </div>
+        <div class="form-group">
+          <label>Phone #:</label>
+          <input type="tel" name="Phone #:" class="form-control" placeholder="(347)-385-7933">
+        </div>
+        <div class="form-group">
+          <label>Message:</label>
+          <textarea type="text" name="Message:" class="form-control" placeholder="Let Us Know What You Think.."></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" value="Send" class="btn btn-info"><p>Send</p></button>
+        </div>
+      </form>
+
+    </div>
+
+    <p id="line2"></p>
+
+
+
+      <div id="Map" class="col-md-6">
+        <div id="map"></div>
+        <script>
+          function initMap() {
+            var myLatLng = { lat: 40.6700, lng: -73.9616 };
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 16,
+              center: myLatLng
+            });
+
+            var marker = new google.maps.Marker({
+              position: myLatLng,
+              map: map,
+              title: 'Hello World!'
+            });
+          }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCg5uMlukQV51_0nIqIHsauYLOHcD7WoEQ&callback=initMap" async defer></script>
+      </div>
+  </div>
+</div>
+
+
+
+  <footer id="contact" class="container-fluid">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2017 Lou's Cakes and Bakesddd</p>
+      <ul class="col-sm-8">
+        <li id="twitter" class="col-sm-1">
+          <a href="https://twitter.com/louisgabrie" class="hoverAnimate">
+              <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"> 
+          </a>
+        </li>
+        <li id="" class="col-sm-1">
+          <a href="https://instagram.com/juan.cir" class="hoverAnimate"> 
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"> </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
