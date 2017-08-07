@@ -71,13 +71,14 @@ a {
   color: black;
 }
 
-#line {  position: absolute;
-width: 410px;
-height: 0px;
-left: 485px;
-top: 1050px;
-border: 1px solid #000000;
-transform: rotate(90.06deg);  
+#line {  
+  position: absolute;
+  width: 410px;
+  height: 0px;
+  left: 485px;
+  top: 1050px;
+  border: 1px solid #000000;
+  transform: rotate(90.06deg);  
 } 
 
 .bg-1 { 
@@ -86,21 +87,21 @@ transform: rotate(90.06deg);
    background-color: #1abc9c; 
 }
 
-.jumbotron { 
-     background-image: url("images/home.jpg");
-     background-size: cover;
-     display: flex;
-     height: 600px;
-     margin-bottom: 10px;
-} 
+/*.jumbotron { */
+/*     background-image: url("images/home.jpg");*/
+/*     background-size: cover;*/
+/*     display: flex;*/
+/*     height: 600px;*/
+/*     margin-bottom: 10px;*/
+/*} */
 
-.jumbo2 { 
-     background-image: url("images/lance.jpg");
-     background-size: cover;
-     display: flex;
-     height: 300px;
-     margin-bottom: 10px; 
-}
+/*.jumbo2 { */
+/*     background-image: url("images/lance.jpg");*/
+/*     background-size: cover;*/
+/*     display: flex;*/
+/*     height: 300px;*/
+/*     margin-bottom: 10px; */
+/*}*/
 
 /*Footer's Code --------------------------> */
 footer {
@@ -177,9 +178,11 @@ top: 990px;
    width: 200px;
 } 
 
-.jumbotron-fluid { 
-    size: cover; 
-}
+.jumbotron-fluid img { 
+     height: 500px;
+     width: 1445px;
+     margin-left: -200px;
+} 
 
 #Us{
   /*background-color: grey;*/
@@ -200,6 +203,7 @@ button{
 input{
   margin:5px;
 }
+
 #line2 {  
 position: absolute;
 width: 320px;
@@ -235,18 +239,49 @@ hr{
 } 
 
 h3 { 
-  margin-left: 70px;  
+  margin-left: 30px;  
 } 
 
 p { 
   display: inline; 
   margin: 80px;
+}
+
+article p { 
+    margin: 0px;
 } 
 
-figcaption {
-    margin-top:-10px;
-} 
+/*figcaption {*/
+/*    margin-top:-10px;*/
+/*} */
 
 .hello { 
      margin-top: 20px;  
 } 
+
+
+/*picture text*/
+
+   .list:hover .overlay {
+    opacity: 1;
+}
+
+    .overlay {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(204,204,204,0.8);
+    border-radius: 999px;
+    width: 282px;
+    height: 282px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    padding: 108px 0 0 0;
+    box-sizing: border-box;
+    font-size: 1.4em;
+    text-shadow: 0 0 1px rgba(0,0,0,0.2);
+    transition: all 0.5s ease;
+    cursor: default
+}

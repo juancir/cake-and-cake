@@ -1,0 +1,130 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #fff;
+  margin-bottom: -20px;
+}
+
+/*<!----------------Navigation & Navbar--------------------------->*/
+header {
+  padding: 20px;
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+}
+
+header h5 {
+  font-weight: 700;
+  margin: 0;
+  font-family: Cursive;
+  color: black;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  font-weight: 800;
+  /*letter-spacing: 1px;*/
+}
+
+header p {
+  /*padding: 0 20px;*/
+  margin-left: 3px;
+  margin: 0;
+  color: black;
+}
+
+header a:hover { 
+     text-decoration: none;
+}
+
+a { 
+  margin: 8px; 
+  color: black;
+}
+
+p{
+  color:black;
+  margin: 0 0 0;
+} 
+/*<!-----------------End--------------------------------------------->*/
+
+/*<!------------------1st Row of Images----------------------------------->*/
+#img1 { 
+    height: 200px;
+    width: 200px;
+    margin-left: 30px;
+} 
+
+#img2 { 
+    height: 200px;
+    width: 200px
+    margin-left: 30px ;
+}
+
+#img3 { 
+    height: 200px;
+    width: 200px;
+} 
+
+#img4 { 
+    height: 200px;
+    width: 200px;
+} 
+
+
+
+
+
+
+
+
+
+/*<!--------------------End of Code---------------------------------------->*/
+
+/*Footer's Code --------------------------> */
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  /*background-image: url("http://cdn.ek.aero/us/english/images/New-York-1_tcm272-2256848.jpg");*/
+     color: #FFF;
+    background: black;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 15px; 
+}
+
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+ footer .col-sm-4 {
+   color: #FFF; 
+}
+
+/*.col-sm-6 {*/
+/*   font-family: Cursive;  */
+/*   text-align: center;*/
+/*   border: 2px solid black;*/
+/*   font-size: 14px;*/
+/*}*/
+
+footer .row {
+  display: flex;
+  align-items: center;
+}
+/*------------------------------------->*/

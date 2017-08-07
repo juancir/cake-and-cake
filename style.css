@@ -145,6 +145,7 @@ footer .row {
 }
 /*------------------------------------->*/
 
+ /*<!---------------Useless---------------------->*/
 #text { 
 position: absolute;
 width: 660px;
@@ -191,10 +192,14 @@ top: 990px;
   margin-left: 80px;
   width:600px;
 }
+
+/*<!------------------Useless-------------------------->*/
 p{
   color:black;
   margin: 0 0 0;
 } 
+
+/*<!-----------------Useless------->*/
 button{
   padding-bottom: -20px;
   margin-top: 20px;

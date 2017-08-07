@@ -4,88 +4,144 @@
   <title>Home - Lou's Cakes & Bakes</title>
   <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"> 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type='text/javascript' src='myscript.js'></script>
   <link rel="stylesheet" type="text/css" href="home.css">
   <link rel="icon" href="//www.freefavicon.com/freefavicons/animal/cat--5-152-85909.png" type="image/x-icon" size="32x32">
 </head>
  <body>
+ <!-------------------Navbar----------------------------------------------------->
      <header class="container">
     <div class="row">
       <h5 class="col-sm-8 navbar-brand">Lou's Cakes and Bakes</h5>
       <nav class="col-sm-4">
-        <p><a href="home.html">Home</a></p>
+        <p><a class=" " href="home.html">Home</a></p>
         <p><a href="about.html">About</a></p>
         <p> <a href="contact.html">Contact Us</a></p>
-        <p><a href="order.html">Order</a></p>
+        <p><a href="checkout.html">Order</a></p>
          <p><a href="gallery.html">Gallery</a></p>
       </nav>
     </div>
   </header>
+  
+  <!---------------Carousel-------------------------------------------------------->
       <div class="jumbotron-fluid">
                 <div class="bs-example" data-example-id="simple-carousel" > 
-            <div class="carousel slide" id="carousel-example-generic" data-ride="carousel" data-interval="3000"> 
+            <div class="carousel carousel-fade slide" id="carousel-example-generic" data-ride="carousel" data-interval="5000"> 
                 <ol class="carousel-indicators"> 
                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li> 
                     <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li> 
                 </ol>   
-               
+    <!-------------Carousel Items--------------------------------------------------> 
                 <div class="carousel-inner" role="listbox">
-                
-                
-                
                     <div class="item next left"> 
-                      
-                         
-                      
                        <img style="height: 600px; width: 100%" class= "img-size img-repsonsive" alt="First slide [900x500]" data-src="holder.js/900x500/auto/#777:#555/text:First slide" src="images/home.jpg" data-holder-rendered="true"> 
-                          <!--<div class="row text-center">-->
-                          <!--   <h2>Welcome</h2>-->
-                          <!--   <h3>#pic_of_the_day</h3>-->
-                          <!--   <a class="btn btn-success" href="#">See all Photos</a>-->
-                          <!-- </div>-->
+                         <div class="carousel-caption swiper-slide-caption">
+                             <h3>Welcome,</h3>
+                             <p style="color: white;">Satisfy your sweet tooth!</p>
+                         </div>
                     </div>
                     <div class="item">
                         <img style="height: 600px; width: 100%" class= "img-size img-repsonsive" alt="Second slide [900x500]" data-src="holder.js/900x500/auto/#666:#444/text:Second slide" src="images/home2.jpg" data-holder-rendered="true"> 
-                        
+                         <div class="carousel-caption">
+                             <h3>Welcome,</h3>
+                             <p style="color: white;">Satisfy your sweet tooth!</p>
+                         </div>
                     </div> 
                     <div class="item active left"> 
                         <img style="height: 600px; width: 100%" class="img-responsive img-size" alt="Third slide [900x500]" data-src="holder.js/900x500/auto/#555:#333/text:Third slide" src="images/home3.jpg" data-holder-rendered="true"> 
+                        <div class="carousel-caption">
+                             <h3>Welcome,</h3>
+                             <p style="color: white;">Satisfy your sweet tooth!</p>
+                         </div>
                     </div> 
                 </div> 
-          
+<!-------------------------End of Carousel--------------------------------------------->
             </div> 
         </div>
               </div>
      <article class ="container">
         <p id="line"></p>
+         <h4>Order Now!</h4>
         <div class="row">
-          <img id="img1" class="col-sm-2 col-md-2 col-lg-2 img-circle img-responsive" src="images/image1.jpg">
+          <img id="img1" class="col-sm-2 col-md-2 col-lg-2 img-circle img-responsive" src="images/image4.jpg">
           <img id="img2" class="col-sm-2 col-md-2 col-lg-2 img-circle img-responsive" src="images/image2.jpg">
           <img id="img3" class="col-sm-2 col-md-2 col-lg-2 img-circle img-responsive" src="images/image3.jpg">
-          <img id="img4" class="col-sm-2 col-md-2 col-lg-2 img-circle img-responsive" src="images/image3.jpg">
-        <p id="text" class="col-sm-4 col-md-6 col-lg-6">Lorem ipsum dolor sit amet, est ea movet partiendo, facete dictas verterem est ut. Albucius contentiones nec an, audire maiorum civibus cum an. An est nihil volumus, no vide oportere necessitatibus mea. Cum at solum feugait, cum odio omnesque te, eu mel munere vivendum. Ne sea docendi scaevola consequat, ad vix esse homero.</p>
+          <img id="img4" class="col-sm-2 col-md-2 col-lg-2 img-circle img-responsive" src="images/image1.jpg">
+        <p id="text" class="col-sm-4 col-md-6 col-lg-6">We make high quality homemade cakes and desserts to order without the fuss of and high cost. We love to bake and want to share with you our passion. Whether you're looking for to celebrate a birthday or just feed your sweet tooth, we have the cake for you.</p>
      </article>
     </div>
      </div>
-     <footer id="contact" class="container-fluid">
+        <footer>
+  <div class="container">
     <div class="row">
-      <p class="col-sm-4">&copy; 2017 Lou's Cakes and Bakes</p>
-      <ul class="col-sm-8">
-        <li class="col-sm-1">
-        <a href="https://twitter.com/louisgabrie">
-          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"> </a>
-        </li>
-        <li class="col-sm-1">
-        <a href="https://instagram.com/a_visual_bliss"> 
-          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"> </a>
-       </li>
-       </ul>
-     </div>
-   </footer>  
+      <div class="col-md-6 col-sm-6 footerleft ">
+        <div class="logofooter"> Lou's Cakes and Bakes</div>
+        <p>Feel free to contact us, we are happy to assist you if you have any questions. </p>
+        <p><i class="fa fa-map-pin"></i> 210, Aggarwal Tower, Rohini sec 9, New Delhi - 110085, INDIA</p>
+        <p><i class="fa fa-phone"></i> Phone (India) : +91 9999 878 398</p>
+        <p><i class="fa fa-envelope"></i> E-mail : info@webenlance.com</p>
+        
+      </div>
+      <div class="col-md-6 col-sm-6 paddingtop-bottom">
+        <ul class="footer-ul">
+          <li><a href="#"> Facebook </a></li>
+          <li><a href="#"> Twitter</a></li>
+          <li><a href="#"> Instagram</a></li>
+          <li><a href="#"> Client Gateway</a></li>
+          <li><a href="#"> Ranking</a></li>
+          <li><a href="#"> Case Studies</a></li>
+        </ul>
+      </div>
+      </div>
+      </div> 
+</footer>
+<!--footer start from here-->
+
+<div class="copyright">
+  <div class="container">
+    <div class="col-md-6">
+      <p>© 2017 - All Rights Reserved Rights Terms of Use And Private Policy</p>
+    </div>
+    <div class="col-md-6">
+      <ul class="bottom_ul">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Order</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+     
+     
+     
+     
+     
+     
+     
+   <!--  <footer id="contact" class="container-fluid">-->
+   <!-- <div class="row">-->
+   <!--   <p class="col-sm-4">&copy; 2017 All Rights Reserved Terms of Use and Private Policy Lou's Cakes and Bakes</p>-->
+   <!--   <ul class="col-sm-8">-->
+   <!--     <li class="col-sm-1">-->
+   <!--     <a href="https://twitter.com/louisgabrie">-->
+   <!--       <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"> </a>-->
+   <!--     </li>-->
+   <!--     <li class="col-sm-1">-->
+   <!--     <a href="https://instagram.com/a_visual_bliss"> -->
+   <!--       <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"> </a>-->
+   <!--    </li>-->
+   <!--    </ul>-->
+   <!--  </div>-->
+   <!--</footer>  -->
 </body>
 </html>

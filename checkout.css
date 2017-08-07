@@ -1,0 +1,140 @@
+#page{
+    margin: 0 0 0 0;
+}
+#main{
+    height: 800px;
+    width: 1100px;
+    /*background-color: grey;*/
+    z-index: -1;
+}
+.product{
+    height:300px;
+    width:300px;
+    margin: 25px 0 0 10px;
+}
+#sidebar{
+    /*background-color: blue;*/
+    height: 800px;
+    width: 250px;
+}
+.productInfo{
+    color:black;
+    font-weight: bold;
+    margin-left: 5px;
+    padding:5px;
+}
+#order-box{
+    height:410px;
+    width:300px;
+    /*background-color: blue;*/
+    /*margin-top: -400px;*/
+    margin-left: 25px;
+    z-index: 1;
+}
+input{
+    margin: 20px 45px 10px 45px;
+}
+.pay{
+  margin-left:90px;
+}
+#cards{
+  height:50px;
+  width:290px;
+  margin-left:5px;
+}
+
+/*Footer's Code --------------------------> */
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  /*background-image: url("http://cdn.ek.aero/us/english/images/New-York-1_tcm272-2256848.jpg");*/
+     color: #FFF;
+    background: black;
+    -webkit-font-smoothing: antialiased;
+    /*margin-top: 20px; */
+}
+
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+ footer .col-sm-4 {
+   color: #FFF; 
+}
+
+/*.col-sm-6 {*/
+/*   font-family: Cursive;  */
+/*   text-align: center;*/
+/*   border: 2px solid black;*/
+/*   font-size: 14px;*/
+/*}*/
+
+footer .row {
+  display: flex;
+  align-items: center;
+}
+/*------------------------------------->*/
+/*<!----------------Navigation & Navbar--------------------------->*/
+header {
+  padding: 20px;
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+}
+
+header h5 {
+  font-weight: 700;
+  margin: 0;
+  font-family: Cursive;
+  color: black;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  font-weight: 800;
+  /*letter-spacing: 1px;*/
+}
+
+header p {
+  /*padding: 0 5px;*/
+  margin-left: 3px;
+  margin: 0;
+  color: black;
+}
+
+header a:hover { 
+     text-decoration: none;
+}
+
+a { 
+  margin: 8px; 
+  color: black;
+}
+
+p{
+  color:black;
+  margin: 0 0 0;
+} 
+/*<!-----------------End--------------------------------------------->*/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #fff;
+  margin-bottom: -20px;
+}

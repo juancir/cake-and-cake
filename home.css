@@ -1,18 +1,4 @@
 
-/*.home-Gallery{*/
-  
-/*}*/
-
-
-/*#about_main_pic{*/
-/*  height:450px;*/
-/*  width:1360px;*/
-
-/*}*/
-/*.jumbotron{*/
-/*  background: transparent;*/
-/*}*/
-
 #info{
   background-color:grey;
   height:400px;
@@ -52,11 +38,9 @@ header nav {
   flex-wrap: wrap;
   text-transform: uppercase;
   font-weight: 800;
-  /*letter-spacing: 1px;*/
 }
 
 header p {
-  /*padding: 0 20px;*/
   margin-left: 3px;
   margin: 0;
   color: black;
@@ -70,6 +54,17 @@ a {
   margin: 8px; 
   color: black;
 }
+
+/*p .active { */
+/*   background-color: orange;*/
+/*} */
+
+h4 { 
+  margin-left: 27px;
+  font-size: 20px;
+  margin-top: 80px;
+  margin-bottom: -60px;
+} 
 
 #line {  position: absolute;
 width: 410px;
@@ -86,14 +81,6 @@ transform: rotate(90.06deg);
    background-color: #1abc9c; 
 }
 
-/*.jumbotron { */
-/*     background-image: url("images/home.jpg");*/
-/*     background-size: cover;*/
-/*     display: flex;*/
-/*     height: 600px;*/
-/*     margin-bottom: 10px;*/
-/*} */
-
 .jumbo2 { 
      background-image: url("images/lance.jpg");
      background-size: cover;
@@ -102,35 +89,34 @@ transform: rotate(90.06deg);
      margin-bottom: 10px; 
 }
 
-/*Footer's Code --------------------------> */
-footer {
-  font-size: 12px;
-  padding: 20px 0;
-  /*background-image: url("http://cdn.ek.aero/us/english/images/New-York-1_tcm272-2256848.jpg");*/
-     color: #FFF;
-    background: black;
-    -webkit-font-smoothing: antialiased;
-    margin-top: 493px; 
-}
+/*<--------------------Footer's Code --------------------------> */
+/*footer {*/
+/*     font-size: 12px;*/
+/*     padding: 20px 0;*/
+/*     color: #FFF;*/
+/*    background: black;*/
+/*    -webkit-font-smoothing: antialiased;*/
+/*    margin-top: 430px; */
+/*}*/
 
 
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
-}
+/*footer .col-sm-8 {*/
+/*  display: flex;*/
+/*  justify-content: flex-end;*/
+/*}*/
 
-footer ul {
-  list-style: none;
-}
+/*footer ul {*/
+/*  list-style: none;*/
+/*}*/
 
-footer li img {
-  width: 32px;
-  height: 32px;
-}
+/*footer li img {*/
+/*  width: 32px;*/
+/*  height: 32px;*/
+/*}*/
 
- footer .col-sm-4 {
-   color: #FFF; 
-}
+/* footer .col-sm-4 {*/
+/*   color: #FFF; */
+/*}*/
 
 /*.col-sm-6 {*/
 /*   font-family: Cursive;  */
@@ -139,17 +125,18 @@ footer li img {
 /*   font-size: 14px;*/
 /*}*/
 
-footer .row {
-  display: flex;
-  align-items: center;
-}
+/*footer .row {*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*}*/
 /*------------------------------------->*/
 
 #text { 
 position: absolute;
 width: 660px;
-left: 690px;
+left: 692px;
 top: 990px;  
+text-shadow: 0.3px 0.3px 0.3px black;
 } 
 
 #img1 { 
@@ -184,7 +171,6 @@ top: 990px;
 }
 
 #Us{
-  /*background-color: grey;*/
   text-align: center;
   padding: 20px;
   margin-top:20px;
@@ -236,11 +222,6 @@ hr{
     margin: 40px;
 } 
 
-/*#employeer { */
-/*    margin: 80px;*/
-/*    font-size: 30px;*/
-/*    width: 200px;*/
-/*} */
 label {
     display: inline-block;
     max-width: 100%;
@@ -253,24 +234,6 @@ label {
    width: 500px; 
    /*margin-left:4px;*/
 }
-
-.form-group > button{
-  /*margin-left: 90px;*/
-}
-
-/*#twitter { */
-/*    padding:10px 12px;*/
-/*    -o-transition:.5s;*/
-/*    -ms-transition:.5s;*/
-/*    -moz-transition:.5s;*/
-/*    -webkit-transition:.5s;*/
-/*    transition: .5s;*/
-/*    background-color: #322f30;*/
-/*} */
-
-/*#twitter: hover { */
-/*    background-color: #00aced;*/
-/*} */
 
 .hoverAnimate {
     padding-top:20px;
@@ -285,6 +248,100 @@ label {
     padding: 10px 10px 10px 10px;
 }
 
-.hoverAnimate > img{
- /*padding:2px;*/
+/*-------------Carousel CSS----------------------------*/
+.carousel-caption  { 
+     /*color: white;*/
+     margin: 0 0 230px;
+     font-size: 60px;
+     font-weight: 700;
+     text-shadow: 2px 2px 2px #000000;
+} 
+
+/* CSS Hack to trigger GPU for smooth transition */
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+  .carousel-fade .carousel-inner > .item.next,
+  .carousel-fade .carousel-inner > .item.active.right {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .carousel-fade .carousel-inner > .item.prev,
+  .carousel-fade .carousel-inner > .item.active.left {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .carousel-fade .carousel-inner > .item.next.left,
+  .carousel-fade .carousel-inner > .item.prev.right,
+  .carousel-fade .carousel-inner > .item.active {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
 }
+/* CSS Hack to trigger GPU for smooth transition */
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition: opacity 0.5s; /* The 0.5s describes the duration to make the opacity from 0 to 1 */
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+
+/*<!------------Footer------------------------------------------------>*/
+footer { background-color: black; min-height:350px; font-family: 'Open Sans', sans-serif; margin-top: 460px;}
+.footerleft { margin-top:150px; padding:0 36px; }
+.logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
+
+.footerleft p { color:#fff; font-size:12px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+.footerleft p i { width:20px; color:#999;}
+
+
+.paddingtop-bottom { margin-top:220px;}
+.footer-ul { 
+    list-style-type:none;  padding-left:0px; margin-left:2px;
+}
+.footer-ul li { 
+    line-height:29px; font-size:12px; display: inline; margin: 5px;
+    
+}
+.footer-ul li a { 
+    color:#a0a3a4; transition: color 0.2s linear 0s, background 0.2s linear 0s; 
+}
+
+.footer-ul i {
+    margin-right:10px;
+}
+.footer-ul li a:hover {
+    transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f;
+}
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ 
+ 
+
+ 
+ .icon-ul { list-style-type:none !important; margin:0px; padding:0px;}
+ .icon-ul li { line-height:75px; width:100%; float:left;}
+ .icon { float:left; margin-right:5px;}
+ 
+ 
+ .copyright { min-height:40px; background-color:#000000;}
+ .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0px;}
+ .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
+ .post p { font-size:12px; color:#FFF; line-height:20px;}
+ .post p span { display:block; color:#8f8f8f;}
+ .bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
+ .bottom_ul li { float:left; line-height:40px;}
+ .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+ .bottom_ul li a { color:#FFF;  font-size:12px;}
+
+
