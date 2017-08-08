@@ -53,17 +53,31 @@ p{
 } 
 /*<!-----------------End--------------------------------------------->*/
 
+/*<!--------------------------Jumbotron--------------------------------------->*/
+#jumbo_text { 
+ margin-left: 40px;
+} 
+
+
+
+
+
+
+
+
+
+
 /*<!------------------1st Row of Images----------------------------------->*/
 #img1 { 
     height: 200px;
     width: 200px;
-    margin-left: 30px;
+    /*margin-left: 60px;*/
 } 
 
 #img2 { 
     height: 200px;
     width: 200px
-    margin-left: 30px ;
+    /*margin-left: 60px ;*/
 }
 
 #img3 { 
@@ -76,11 +90,23 @@ p{
     width: 200px;
 } 
 
+.img-circle { 
+    margin: 20px;
+} 
 
+.container-fluid { 
+    padding-left: 100px;
+} 
 
+/*<!---------------Modals--------------------------->*/
 
-
-
+#img1_modal {
+    /*height: 275px;*/
+    width: 320px;
+    margin-left: 360px;
+    margin-top: 270px;
+    position: fixed;
+}
 
 
 
@@ -94,7 +120,8 @@ footer {
      color: #FFF;
     background: black;
     -webkit-font-smoothing: antialiased;
-    margin-top: 15px; 
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
 
@@ -128,3 +155,8 @@ footer .row {
   align-items: center;
 }
 /*------------------------------------->*/
+
+#img1{
+	-webkit-animation: kenburns-top 5s ease-out both;
+	        animation: kenburns-top 5s ease-out both;
+}

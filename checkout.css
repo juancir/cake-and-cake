@@ -1,3 +1,4 @@
+
 #page{
     margin: 0 0 0 0;
 }
@@ -23,14 +24,14 @@
     margin-left: 5px;
     padding:5px;
 }
-#order-box{
-    height:410px;
-    width:300px;
-    /*background-color: blue;*/
-    /*margin-top: -400px;*/
-    margin-left: 25px;
-    z-index: 1;
-}
+/*.form-group{*/
+/*    height:410px;*/
+/*    width:300px;*/
+/*    background-color: blue;*/
+/*    margin-top: -400px;*/
+/*    margin-left: 25px;*/
+/*    z-index: 10;*/
+/*}*/
 input{
     margin: 20px 45px 10px 45px;
 }
@@ -38,9 +39,46 @@ input{
   margin-left:90px;
 }
 #cards{
-  height:50px;
+  height:40px;
   width:290px;
   margin-left:5px;
+}
+.input-group-addon beautiful{
+  width:20px;
+  z-index: 2;
+  margin: 5px 10px;
+  /*border-left:10px;*/
+}
+#buy{
+  margin-left:112px;
+  margin-top:20px;
+}
+#details{
+  height:400px;
+  width:720px;
+  /*background-color:blue;*/
+  margin-top:-700px;
+  margin-left:310px;
+  text-align:center;
+}
+#description{
+  text-align:center;
+}
+.other{
+  text-align:center;
+}
+h3{
+  text-align:center;
+}
+#op{
+  text-decoration:underline;
+}
+h1{
+  text-align:center;
+}
+ul{
+  text-align:center;
+  margin-left: 60px;
 }
 
 /*Footer's Code --------------------------> */
@@ -138,3 +176,9 @@ body {
   background-color: #fff;
   margin-bottom: -20px;
 }
+
+.form-group { 
+   width: 250px;
+   margin-left: -25px;
+   margin-top: 40px;
+} 
