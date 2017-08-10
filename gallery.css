@@ -1,148 +1,242 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  background-color: #fff;
-  margin-bottom: -20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #fff;
+    margin-bottom: -20px;
 }
-
 /*<!----------------Navigation & Navbar--------------------------->*/
+
 header {
-  padding: 20px;
+    padding: 20px;
 }
-
 header .row {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
-
 header h5 {
-  font-weight: 700;
-  margin: 0;
-  font-family: Cursive;
-  color: black;
+    font-weight: 700;
+    margin: 0;
+    font-family: Cursive;
+    color: black;
 }
-
 header nav {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  text-transform: uppercase;
-  font-weight: 800;
-  /*letter-spacing: 1px;*/
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    font-weight: 800;
+    /*letter-spacing: 1px;*/
 }
-
 header p {
-  /*padding: 0 20px;*/
-  margin-left: 3px;
-  margin: 0;
-  color: black;
+    /*padding: 0 20px;*/
+    
+    margin-left: 3px;
+    margin: 0;
+    color: black;
 }
-
-header a:hover { 
-     text-decoration: none;
+header a:hover {
+    text-decoration: none;
 }
-
-a { 
-  margin: 8px; 
-  color: black;
+a {
+    margin: 4px;
+    color: black;
 }
-
-p{
-  color:black;
-  margin: 0 0 0;
-} 
+p {
+    color: black;
+    margin-left: 3px;
+}
 /*<!-----------------End--------------------------------------------->*/
-
 /*<!--------------------------Jumbotron--------------------------------------->*/
-#jumbo_text { 
- margin-left: 40px;
-} 
 
-
-
-
-
-
-
-
-
-
+#jumbo_text {
+    margin-left: 40px;
+}
 /*<!------------------1st Row of Images----------------------------------->*/
-#img1 { 
+
+#img1 {
     height: 200px;
     width: 200px;
     /*margin-left: 60px;*/
-} 
-
-#img2 { 
+}
+#img2 {
     height: 200px;
     width: 200px
     /*margin-left: 60px ;*/
 }
-
-#img3 { 
+#img3 {
     height: 200px;
     width: 200px;
-} 
-
-#img4 { 
+}
+#img4 {
     height: 200px;
     width: 200px;
-} 
-
-.img-circle { 
+}
+.img-circle {
     margin: 20px;
-} 
-
-.container-fluid { 
+}
+.container-fluid {
     padding-left: 100px;
-} 
-
+}
 /*<!---------------Modals--------------------------->*/
 
-#img1_modal {
+#cake1 {
     /*height: 275px;*/
+    
     width: 320px;
     margin-left: 360px;
     margin-top: 270px;
     position: fixed;
 }
-
-
-
+#cake2 {
+    /*height: 275px;*/
+    
+    width: 320px;
+    margin-left: 640px;
+    margin-top: 270px;
+    position: fixed;
+}
+#cake3 {
+    /*height: 275px;*/
+    
+    width: 320px;
+    margin-left: 370px;
+    margin-top: 270px;
+    position: fixed;
+}
+#cake4 {
+    /*height: 275px;*/
+    
+    width: 320px;
+    margin-left: 650px;
+    margin-top: 270px;
+    position: fixed;
+}
+#cake5 {
+    /*height: 275px;*/
+    
+    width: 320px;
+    margin-left: 360px;
+    margin-top: 322px;
+    position: fixed;
+}
+#cake6 {
+    /*height: 275px;*/
+    
+    width: 320px;
+    margin-left: 360px;
+    margin-top: 322px;
+    position: fixed;
+}
+#cake7 {
+    /*height: 275px;*/
+    
+    width: 320px;
+    margin-left: 360px;
+    margin-top: 322px;
+    position: fixed;
+}
+#cake8 {
+    /*height: 275px;*/
+    
+    width: 320px;
+    margin-left: 360px;
+    margin-top: 322px;
+    position: fixed;
+}
+/*#cake9 {*/
+/*    height: 275px;*/
+    
+/*    width: 320px;*/
+/*    margin-left: 360px;*/
+/*    margin-top: 122px;*/
+/*    position: fixed;*/
+/*}*/
+/*#cake10 {*/
+/*    height: 275px;*/
+    
+/*    width: 320px;*/
+/*    margin-left: 360px;*/
+/*    margin-top: 122px;*/
+/*    position: fixed;*/
+/*}*/
+/*#cake11 {*/
+/*    height: 275px;*/
+    
+/*    width: 320px;*/
+/*    margin-left: 360px;*/
+/*    margin-top: 122px;*/
+/*    position: fixed;*/
+/*}*/
+#create {
+    /*height: 5000px;*/
+    
+    width: 450px;
+    margin-left: 450px;
+    margin-top: 122px;
+    position: fixed;
+}
+button.qty-change{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+}
+.qty-input{
+    height: 30px;
+    width: 40px;
+    /*text-align: center;*/
+}
+.form-group{
+    width:60px;
+}
+.form-control {
+    display: inline-block;
+    width: 250px; 
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+/*}*/
 /*<!--------------------End of Code---------------------------------------->*/
-
+/*#images { */
+/*   margin-left: 100px;*/
+/*} */
 /*Footer's Code --------------------------> */
 footer {
-  font-size: 12px;
-  padding: 20px 0;
-  /*background-image: url("http://cdn.ek.aero/us/english/images/New-York-1_tcm272-2256848.jpg");*/
-     color: #FFF;
+    font-size: 12px;
+    padding: 20px 0px;
+    /*background-image: url("http://cdn.ek.aero/us/english/images/New-York-1_tcm272-2256848.jpg");*/
+    color: #FFF;
+    margin-top: 15px;
+    margin-left:100%;
     background: black;
     -webkit-font-smoothing: antialiased;
-    margin-top: 15px;
-    margin-left: 15px;
 }
-
-
 footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
-
 footer ul {
-  list-style: none;
+    list-style: none;
 }
-
 footer li img {
-  width: 32px;
-  height: 32px;
+    width: 32px;
+    height: 32px;
 }
-
- footer .col-sm-4 {
-   color: #FFF; 
+footer .col-sm-4 {
+    color: #FFF;
 }
-
 /*.col-sm-6 {*/
 /*   font-family: Cursive;  */
 /*   text-align: center;*/
@@ -151,12 +245,25 @@ footer li img {
 /*}*/
 
 footer .row {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+#copyright {
+    margin-left: -45px;
 }
 /*------------------------------------->*/
 
-#img1{
-	-webkit-animation: kenburns-top 5s ease-out both;
-	        animation: kenburns-top 5s ease-out both;
+#img1 {
+    -webkit-animation: kenburns-top 5s ease-out both;
+    animation: kenburns-top 5s ease-out both;
+}
+/*.row{*/
+/*margin-left: 100px;*/
+/*margin-right: 10px;*/
+/*}*/
+
+#gal {
+    margin-left: 100px;
 }

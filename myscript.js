@@ -7,12 +7,20 @@ $('p a').click(function() {
 });
  }); 
 
-$('.carousel').carousel({
+$('#carousel-generic-example').carousel({
     pause: "false" /* Change to true to make it paused when your mouse cursor enter the background */
 });
-// button
 
-
-
-
-// close
+// 
+function clickCounter() {
+    if(typeof(Storage) !== "undefined") {
+        if (localStorage.clickcount) {
+            localStorage.clickcount = Number(localStorage.clickcount)+1;
+        } else {
+            localStorage.clickcount = 1;
+        }
+        document.getElementById("result").innerHTML = "You have ordered " + localStorage.clickcount + " item(s).";
+    } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    }console.log(clickCounter);
+}

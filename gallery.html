@@ -1,132 +1,404 @@
 <html lang="en">
+
 <head>
-  <title>Home - Lou's Cakes & Bakes</title>
-  <meta charset="utf-8">
+    <title>Gallery - Lou's Cakes & Bakes</title>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"> 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script type='text/javascript' src='myscript.js'></script>
-  <link rel="stylesheet" type="text/css" href="gallery.css">
-  <link rel="icon" href="//www.freefavicon.com/freefavicons/animal/cat--5-152-85909.png" type="image/x-icon" size="32x32">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type='text/javascript' src='myscript.js'></script>
+    <link rel="stylesheet" type="text/css" href="gallery.css">
+    <link rel="icon" href="//www.freefavicon.com/freefavicons/animal/cat--5-152-85909.png" type="image/x-icon" size="32x32">
 </head>
-  <body> 
-  <!------------Navigation & Navbar---------------------------------------------->
-       <header class="container">
-    <div class="row">
-      <h5 class="col-sm-8 navbar-brand">Lou's Cakes and Bakes</h5>
-      <nav class="col-sm-4">
-        <p><a href="home.html">Home</a></p>
-        <p><a href="about.html">About</a></p>
-        <p> <a href="contact.html">Contact Us</a></p>
-        <p><a href="gallery.html">Gallery</a></p>
-        <p><a href="order.html">My Order</a></p>
-      </nav>
+
+<body>
+    <!------------Navigation & Navbar---------------------------------------------->
+    <header class="container">
+        <div class="row">
+            <h5 class="col-sm-8 navbar-brand">Lou's Cakes and Bakes</h5>
+            <nav class="col-sm-4">
+                <p><a href="home.html">Home</a>
+                </p>
+                <p><a href="about.html">About</a>
+                </p>
+                <p> <a href="contact.html">Contact Us</a>
+                </p>
+                <p><a href="gallery.html">Gallery</a>
+                </p>
+                <p><a href="checkout.html">My Order</a>
+                </p>
+            </nav>
+        </div>
+    </header>
+    <!-------------------End of Code--------------------------------------------------->
+    <div class="jumbotron">
+        <p id="jumbo_text">We make our cake with passion and use goods from imported countries and these goods are so good that they will make you want to come back for more cake. Satisfy your sweet tooth.</p>
     </div>
-  </header>
-<!-------------------End of Code--------------------------------------------------->
-   <div class="jumbotron">
-        <p id="jumbo_text">We make our cake with passion and use goods from imported countries and these goods aree so good that they will make you want to come back for more cake. Satisfy your sweet tooth.</p>
-   </div>
- <!-----------Gallery Images--------------------------------------------------------> 
-      <div class='row container'>
-           <div class="col-md-3 col-lg-3 col-sm-3">
-           <img id="img1" class="img-responsive img-circle" src="images/image1.jpg">
-           </div> 
-           <div class="col-md-3 col-lg-3 col-sm-3">
-           <img id="img2" class="img-responsive img-circle" src="images/image2.jpg">
-           </div> 
-           <div class="col-md-3 col-lg-3 col-sm-3">
-           <img id="img3" class="img-responsive img-circle" src="images/image3.jpg">
-           </div>
-           <div class="col-md-3 col-lg-3 col-sm-3">
-           <img id="img4" class="img-responsive img-circle" src="images/image4.jpg">
-           </div> 
-      </div>
-      
-       <div class='row container'>
-           <div class="col-md-3 col-lg-3 col-sm-3">
-             <div data-toggle="modal" data-target="#chocolate_cake">
-                <img id="img1" class="img-responsive img-circle" src="images/img1_modal.jpg">
-             </div> 
+    <!-----------Gallery Images-------------------------------------------------------->
+    
+    <div class="container">
+        <div class"row">
+            <div id="gal">
+        <div class='row container' id="images">
+            <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                <div data-toggle="modal" data-target="#cake1">
+                    <img id="img1" class="img-responsive img-circle" src="https://scontent-lga3-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/18581179_115084642406886_2016533552593633280_n.jpg">
+                </div>
             </div>
-  <div id="chocolate_cake" class="modal fade">
- <!-----Modal Content--------------->
-    <div class="modal-content" id="img1_modal">
-      <div class="modal-header">
-      <h3>Chocolate Cake</h3> 
-     </div>
-     <div class="modal-body">
-       <p>Some text in the modal</p>
-     </div>
-     <div class="modal-footer">
-     <p><strong>Price:</strong><p>$31.00</p></p>
-       <button class="btn btn-info" data-dismiss="modal">Checkout</button>
-     </div>
-     </div>
-     </div>
- <!-------------------------------->
-           <div class="col-md-3 col-lg-3 col-sm-3">
-           <img id="img2" class="img-responsive img-circle" src="images/image2.jpg">
-           </div> 
-           <div class="col-md-3 col-lg-3 col-sm-3">
-           <img id="img3" class="img-responsive img-circle" src="images/image3.jpg">
-           </div>
-           <div class="col-md-3 col-lg-3 col-sm-3">
-           <img id="img4" class="img-responsive img-circle" src="images/image4.jpg">
-           </div> 
-      </div>
-      
-       <div class='row container'>
-           <div class="col-md-3 col-lg-3 col-sm-3">
-           <img id="img1" class="img-responsive img-circle" src="images/image1.jpg">
-           </div> 
-           <div class="col-md-3 col-lg-3 col-sm-3">
-           <img id="img2" class="img-responsive img-circle" src="images/image2.jpg">
-           </div> 
-           <div class="col-md-3 col-lg-3 col-sm-3">
-           <img id="img3" class="img-responsive img-circle" src="images/image3.jpg">
-           </div>
-           <div class="col-md-3 col-lg-3 col-sm-3">
-           <img id="img4" class="img-responsive img-circle" src="images/image4.jpg">
-           </div> 
-      </div>
-      
-       <div class='row container'>
-           <div class="col-md-3 col-lg-3 col-sm-3">
-           <img id="img1" class="img-responsive img-circle" src="images/image1.jpg">
-           </div> 
-           <div class="col-md-3 col-lg-3 col-sm-3">
-           <img id="img2" class="img-responsive img-circle" src="images/image2.jpg">
-           </div> 
-           <div class="col-md-3 col-lg-3 col-sm-3">
-           <img id="img3" class="img-responsive img-circle" src="images/image3.jpg">
-           </div>
-           <div class="col-md-3 col-lg-3 col-sm-3">
-           <img id="img4" class="img-responsive img-circle" src="images/image4.jpg">
-           </div> 
-      </div>
-  
-  <!-------------Footer------------------------------------------------------>
-     <footer id="contact" class="container-fluid">
-    <div class="row">
-      <p class="col-sm-4">&copy; 2017 Lou's Cakes and Bakes</p>
-      <ul class="col-sm-8 col-md-8 col-lg-8">
-        <li class="col-sm-1 col-md-1">
-        <a href="https://twitter.com/louisgabrie">
-          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"> </a>
-        </li>
-        <li class="col-sm-1 col-md-1">
-        <a href="https://instagram.com/a_visual_bliss"> 
-          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"> </a>
-       </li>
-       </ul>
-     </div>
-   </footer>  
- <!--------------------------End of Code--------------------------------------------> 
- </body>
- </html>
+            <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                <div data-toggle="modal" data-target="#cake2">
+                    <img id="img2" class="img-responsive img-circle" src="https://scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/18581296_419051268493374_3313805776987881472_n.jpg">
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                <div data-toggle="modal" data-target="#cake3">
+                    <img id="img3" class="img-responsive img-circle" src="https://scontent-lga3-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/18812397_428143010917666_7036428368232841216_n.jpg">
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                <div data-toggle="modal" data-target="#cake4">
+                    <img id="img4" class="img-responsive img-circle" src="https://scontent-lga3-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/18950249_1054601621336922_2311402161478565888_n.jpg">
+                </div>
+            </div>
+
+        </div>
+
+        <div class='row container'>
+            <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12" id="images">
+                <div data-toggle="modal" data-target="#cake5">
+                    <img id="img1" class="img-responsive img-circle crazy" src="https://scontent-lga3-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19120339_811390925685654_5755279150420066304_n.jpg">
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                <div data-toggle="modal" data-target="#cake6">
+                    <img id="img2" class="img-responsive img-circle" src="https://scontent-lga3-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/c0.40.1080.1080/19379537_240525553114867_7296776310620160000_n.jpg">
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                <div data-toggle="modal" data-target="#cake7">
+                    <img id="img3" class="img-responsive img-circle" src="https://scontent-lga3-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19985631_934561123353041_2473253399823384576_n.jpg">
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                <div data-toggle="modal" data-target="#cake8">
+                    <img id="img4" class="img-responsive img-circle" src="https://scontent-lga3-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/20067159_1136464863119630_8934791818436935680_n.jpg">
+                </div>
+            </div>
+        </div>
+
+
+        <div class='row container' id="images">
+            <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                <div data-toggle="modal" data-target="#cake9">
+                    <img id="img1" class="img-responsive img-circle" src="http://www.touchofclassal.com/wp-content/uploads/2015/02/comingsoon.jpg">
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                <div data-toggle="modal" data-target="#cake10">
+                    <img id="img2" class="img-responsive img-circle" src="http://www.touchofclassal.com/wp-content/uploads/2015/02/comingsoon.jpg">
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                <div data-toggle="modal" data-target="#cake11">
+                    <img id="img3" class="img-responsive img-circle" src="http://www.touchofclassal.com/wp-content/uploads/2015/02/comingsoon.jpg">
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                <div data-toggle="modal" data-target="#create">
+                    <img id="img4" class="img-responsive img-circle" src="https://www.dominos.com.au/media/1201/p007d_productimage_large_en_default_20140203_103115.png">
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!--modal-->
+        <div id="cake1" class="modal fade" role="dialog">
+            <div class="modal-content" id="img1_modal">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3>Oreo Cake</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal</p>
+                </div>
+                <div class="modal-footer">
+                    <p><strong>Price:</strong>
+                        <p>$31.00</p>
+                    </p>
+                    <button class="btn btn-info" data-dismiss="modal">Checkout</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+
+        
+        
+    
+        <!---->
+        <div id="cake2" class="modal fade">
+            <div class="modal-content" id="img2_modal">
+                <div class="modal-header">
+                    <h3>Vanilla Nest Cake</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal</p>
+                </div>
+                <div class="modal-footer">
+                    <p><strong>Price:</strong>
+                        <p>$31.00</p>
+                    </p>
+                    <button class="btn btn-info" data-dismiss="modal">Checkout</button>
+                </div>
+            </div>
+        </div>
+        <!---->
+        <div id="cake3" class="modal fade">
+            <div class="modal-content" id="img3_modal">
+                <div class="modal-header">
+                    <h3>Banana Bundt Cake</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal</p>
+                </div>
+                <div class="modal-footer">
+                    <p><strong>Price:</strong>
+                        <p>$31.00</p>
+                    </p>
+                    <button class="btn btn-info" data-dismiss="modal">Checkout</button>
+                </div>
+            </div>
+        </div>
+        <!---->
+        <div id="cake4" class="modal fade">
+            <div class="modal-content" id="img4_modal">
+                <div class="modal-header">
+                    <h3>Cinnamon Brown Sugar Cake with Maple Cream Cheese Frosting</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal</p>
+                </div>
+                <div class="modal-footer">
+                    <p><strong>Price:</strong>
+                        <p>$31.00</p>
+                    </p>
+                    <button class="btn btn-info" data-dismiss="modal">Checkout</button>
+                </div>
+            </div>
+        </div>
+        <!---->
+        <div id="cake5" class="modal fade">
+            <div class="modal-content" id="img5_modal">
+                <div class="modal-header">
+                    <h3>Peanut butter Cookies</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal</p>
+                </div>
+                <div class="modal-footer">
+                    <p><strong>Price:</strong>
+                        <p>$31.00</p>
+                    </p>
+                    <button class="btn btn-info" data-dismiss="modal">Checkout</button>
+                </div>
+            </div>
+        </div>
+        <!---->
+        <div id="cake6" class="modal fade">
+            <div class="modal-content" id="img6_modal">
+                <div class="modal-header">
+                    <h3>8 Layered Wedding Cake</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal</p>
+                </div>
+                <div class="modal-footer">
+                    <p><strong>Price:</strong>
+                        <p>$31.00</p>
+                    </p>
+                    <button class="btn btn-info" data-dismiss="modal">Checkout</button>
+                </div>
+            </div>
+        </div>
+        <!---->
+        <div id="cake7" class="modal fade">
+            <div class="modal-content" id="img7_modal">
+                <div class="modal-header">
+                    <h3>Herb Loaf Bread</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal</p>
+                </div>
+                <div class="modal-footer">
+                    <p><strong>Price:</strong>
+                        <p>$31.00</p>
+                    </p>
+                    <button class="btn btn-info" data-dismiss="modal">Checkout</button>
+                </div>
+            </div>
+        </div>
+        <!---->
+        <div id="cake8" class="modal fade">
+            <div class="modal-content" id="img8_modal">
+                <div class="modal-header">
+                    <h3>FunFetti Vannilla Cake</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal</p>
+                </div>
+                <div class="modal-footer">
+                    <p><strong>Price:</strong>
+                        <p>$31.00</p>
+                    </p>
+                    <button class="btn btn-info" data-dismiss="modal">Checkout</button>
+                </div>
+            </div>
+        </div>
+            <!--<div id="cake9" class="modal fade">-->
+            <!--    <div class="modal-content" id="img9_modal">-->
+            <!--        <div class="modal-header">-->
+            <!--            <h3>Chocolate Cake</h3>-->
+            <!--        </div>-->
+            <!--        <div class="modal-body">-->
+            <!--            <p>Some text in the modal</p>-->
+            <!--        </div>-->
+            <!--        <div class="modal-footer">-->
+            <!--            <p><strong>Price:</strong>-->
+            <!--                <p>$31.00</p>-->
+            <!--            </p>-->
+            <!--            <button class="btn btn-info" data-dismiss="modal">Checkout</button>-->
+            <!--        </div>-->
+            <!--    </div>-->
+            <!--    <div id="cake10" class="modal fade">-->
+            <!--        <div class="modal-content" id="img10_modal">-->
+            <!--            <div class="modal-header">-->
+            <!--                <h3>Chocolate Cake</h3>-->
+            <!--            </div>-->
+            <!--            <div class="modal-body">-->
+            <!--                <p>Some text in the modal</p>-->
+            <!--            </div>-->
+            <!--            <div class="modal-footer">-->
+            <!--                <p><strong>Price:</strong>-->
+            <!--                    <p>$31.00</p>-->
+            <!--                </p>-->
+            <!--                <button class="btn btn-info" data-dismiss="modal">Checkout</button>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--        <div id="cake11" class="modal fade">-->
+            <!--            <div class="modal-content" id="img11_modal">-->
+            <!--                <div class="modal-header">-->
+            <!--                    <h3>Chocolate Cake</h3>-->
+            <!--                </div>-->
+            <!--                <div class="modal-body">-->
+            <!--                    <p>Some text in the modal</p>-->
+            <!--                </div>-->
+            <!--                <div class="modal-footer">-->
+            <!--                    <p><strong>Price:</strong>-->
+            <!--                        <p>$31.00</p>-->
+            <!--                    </p>-->
+            <!--                    <button class="btn btn-info" data-dismiss="modal">Checkout</button>-->
+            <!--                </div>-->
+            <!--            </div>-->
+                        <div id="create" class="modal fade">
+                            <div class="modal-content" id="img12_modal">
+                                <div class="modal-header">
+                                    <h3>Make Your Own Order</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <!--make order-->
+                                        <div class="checkbox-inline">
+                                            <label><input type="checkbox" value="">Cookies</label>
+                                        </div>
+                                        <div class="checkbox-inline">
+                                            <label><input type="checkbox" value="">Cake</label>
+                                        </div>
+                                        <div class="checkbox-inline">
+                                            <label><input type="checkbox" value="">Brownies</label>
+                                        </div>
+                                        <div class="checkbox-inline">
+                                            <label><input type="checkbox" value="">Bread</label>
+                                        </div>
+                                        <!---->
+                                    <div class="container">
+                                        <div class="row">
+                                        <form>
+                                            <div class="qty-changer" class="col-sm-4">
+                                                <strong><u><p>Qty</p></u></strong> <input class="qty-input form-group" type="number" value="1"/>
+                                            </div>
+                                        </form>
+                                    <!---->
+                                        <form>
+                                            <div class="form-group" class="col-md-8">
+                                                <label for="sel2">Flavor</label><br>
+                                                <select multiple class="form-control" id="sel2">
+                                                    <option>Chocalate Chip</option>
+                                                    <option>M&M</option>
+                                                    <option>Oatmeal Raisin</option>
+                                                    <option>Raisin</option>
+                                                    <option>Milk Chocolate Oatmeal</option>
+                                                    <option>Chocolate Chip Pecan</option>
+                                                    <option>Macadamia Dark Chocolate</option>
+                                                    <option>Macadamia White Chocolate</option>
+                                                    <option>Dark Chocolate Cranberry</option>
+                                                    <option>White Chocolate Cranberry</option>
+                                                </select>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!---->
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-info" data-dismiss="modal">Checkout</button>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                        <!--no modal-->
+
+                        <!-- <div class='row container' id="images">-->
+                        <!--     <div class="col-md-3 col-lg-3 col-sm-3">-->
+                        <!--     <img id="img1" class="img-responsive img-circle" src="images/image1.jpg">-->
+                        <!--     </div> -->
+                        <!--     <div class="col-md-3 col-lg-3 col-sm-3">-->
+                        <!--     <img id="img2" class="img-responsive img-circle" src="images/image2.jpg">-->
+                        <!--     </div> -->
+                        <!--     <div class="col-md-3 col-lg-3 col-sm-3">-->
+                        <!--     <img id="img3" class="img-responsive img-circle" src="images/image3.jpg">-->
+                        <!--     </div>-->
+                        <!--     <div class="col-md-3 col-lg-3 col-sm-3">-->
+                        <!--     <img id="img4" class="img-responsive img-circle" src="images/image4.jpg">-->
+                        <!--     </div> -->
+                        <!--</div>-->
+                    <!-------------Footer------------------------------------------------------>
+                    <footer id="contact" class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                            <p id="copyright" class="col-sm-4">&copy; 2017 Lou's Cakes and Bakes</p>
+                            <ul class="col-sm-8 col-md-8 col-lg-8">
+                                <li class="col-sm-1 col-md-1">
+                                    <a href="https://twitter.com/louisgabrie">
+                                        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"> </a>
+                                </li>
+                                <li class="col-sm-1 col-md-1">
+                                    <a href="https://instagram.com/a_visual_bliss">
+                                        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"> </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        </div>
+                    </footer>
+                    
+                
+                    
+            
+                    <!--------------------------End of Code-------------------------------------------->
+</body>
+
+</html>

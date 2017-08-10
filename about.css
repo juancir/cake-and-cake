@@ -1,92 +1,76 @@
-
 /*.home-Gallery{*/
-  
 /*}*/
-
-
 /*#about_main_pic{*/
 /*  height:450px;*/
 /*  width:1360px;*/
-
 /*}*/
 /*.jumbotron{*/
 /*  background: transparent;*/
 /*}*/
 
-#info{
-  background-color:grey;
-  height:400px;
+#info {
+    background-color: grey;
+    height: 400px;
 }
-
-#team{
-  background-color:grey;
-  height:400px;
+#team {
+    background-color: grey;
+    height: 400px;
 }
-
 body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  background-color: #fff;
-  margin-bottom: -20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #fff;
+    margin-bottom: -20px;
 }
-
 header {
-  padding: 20px;
+    padding: 20px;
 }
-
 header .row {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
-
 header h5 {
-  font-weight: 700;
-  margin: 0;
-  font-family: Cursive;
-  color: black;
+    font-weight: 700;
+    margin: 0;
+    font-family: Cursive;
+    color: black;
 }
-
 header nav {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  text-transform: uppercase;
-  font-weight: 800;
-  /*letter-spacing: 1px;*/
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    font-weight: 800;
+    /*letter-spacing: 1px;*/
 }
-
 header p {
-  /*padding: 0 20px;*/
-  margin-left: 3px;
-  margin: 0;
-  color: black;
+    /*padding: 0 20px;*/
+    
+    margin-left: 3px;
+    margin: 0;
+    color: black;
 }
-
-header a:hover { 
-     text-decoration: none;
+header a:hover {
+    text-decoration: none;
 }
-
-a { 
-  margin: 8px; 
-  color: black;
+a {
+    margin: 4px;
+    color: black;
 }
-
-#line {  
-  position: absolute;
-  width: 410px;
-  height: 0px;
-  left: 485px;
-  top: 1050px;
-  border: 1px solid #000000;
-  transform: rotate(90.06deg);  
-} 
-
-.bg-1 { 
-   padding-top: 70px;
-   padding-bottom: 70px;
-   background-color: #1abc9c; 
+#line {
+    position: absolute;
+    width: 410px;
+    height: 0px;
+    left: 485px;
+    top: 1050px;
+    border: 1px solid #000000;
+    transform: rotate(90.06deg);
 }
-
+.bg-1 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #1abc9c;
+}
 /*.jumbotron { */
 /*     background-image: url("images/home.jpg");*/
 /*     background-size: cover;*/
@@ -94,7 +78,6 @@ a {
 /*     height: 600px;*/
 /*     margin-bottom: 10px;*/
 /*} */
-
 /*.jumbo2 { */
 /*     background-image: url("images/lance.jpg");*/
 /*     background-size: cover;*/
@@ -102,35 +85,34 @@ a {
 /*     height: 300px;*/
 /*     margin-bottom: 10px; */
 /*}*/
-
 /*Footer's Code --------------------------> */
+
 footer {
-  font-size: 12px;
-  padding: 20px 0;
-  /*background-image: url("http://cdn.ek.aero/us/english/images/New-York-1_tcm272-2256848.jpg");*/
-  /*margin-top: 458px;*/
-  background-color: black;
+    font-size: 12px;
+    margin-top: 55px;
+    margin-bottom: -30px;
+    padding-top:25px;
+    padding-bottom: 10px;
+    /*background-image: url("http://cdn.ek.aero/us/english/images/New-York-1_tcm272-2256848.jpg");*/
+    color: #FFF;
+    background: black;
+    -webkit-font-smoothing: antialiased;
+    /*margin-top: 31px;*/
 }
-
-
 footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
-
 footer ul {
-  list-style: none;
+    list-style: none;
 }
-
 footer li img {
-  width: 32px;
-  height: 32px;
+    width: 32px;
+    height: 32px;
 }
-
- footer .col-sm-4 {
-   color: #FFF; 
+footer .col-sm-4 {
+    color: #FFF;
 }
-
 /*.col-sm-6 {*/
 /*   font-family: Cursive;  */
 /*   text-align: center;*/
@@ -139,149 +121,241 @@ footer li img {
 /*}*/
 
 footer .row {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
+}
+#copyright {
+    margin-left: 20px;
 }
 /*------------------------------------->*/
 
-#text { 
-position: absolute;
-width: 660px;
-left: 690px;
-top: 990px;  
-} 
-
-#img1 { 
-  top: 100px;
-  height: 200px;
-  width: 200px;
+#text {
+    position: absolute;
+    width: 660px;
+    left: 690px;
+    top: 990px;
 }
-
-#img2 { 
-   left: 80px;
-   top: 100px;
-   height: 200px;
-   width: 200px;
-} 
-
-#img3 { 
-  top: 330px;
-  left: -400px;
-  height: 200px;
-  width: 200px;
-} 
-
-#img4 { 
-   top: 330px;
-   left: -310px;
-   height: 200px;
-   width: 200px;
-} 
-
-.jumbotron-fluid img { 
-     height: 500px;
-     width: 1445px;
-     margin-left: -200px;
-} 
-
-#Us{
-  /*background-color: grey;*/
-  text-align: center;
-  padding: 20px;
-  margin-top:20px;
-  margin-left: 80px;
-  width:600px;
+#img1 {
+    top: 100px;
+    height: 200px;
+    width: 200px;
 }
-p{
-  color:black;
-  margin: 0 0 0;
-} 
-button{
-  padding-bottom: -20px;
-  margin-top: 20px;
+#img2 {
+    left: 80px;
+    top: 100px;
+    height: 200px;
+    width: 200px;
 }
-input{
-  margin:5px;
+#img3 {
+    top: 330px;
+    left: -400px;
+    height: 200px;
+    width: 200px;
 }
-
-#line2 {  
-position: absolute;
-width: 320px;
-height: 0px;
-left: 570px;
-top: 340px;
-border: 1px solid #000000;
-transform: rotate(90.06deg);  
-} 
-
-hr{
-  height: 2px;
-  background-color: black;
-  padding: 1px 1px 1px 1px;
+#img4 {
+    top: 330px;
+    left: -310px;
+    height: 200px;
+    width: 200px;
 }
-
+.jumbotron-fluid img {
+    height: 500px;
+    width: 1445px;
+    margin-left: -200px;
+}
+#Us {
+    /*background-color: grey;*/
+    
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 600px;
+}
+.infoo {
+    color: black;
+    margin: -15px 50px 10px 50px;
+    /*text-align:center;*/
+    /*padding:20px;*/
+}
+button {
+    padding-bottom: -20px;
+    margin-top: 20px;
+}
+input {
+    margin: 5px;
+}
+#line2 {
+    position: absolute;
+    width: 320px;
+    height: 0px;
+    left: 570px;
+    top: 340px;
+    border: 1px solid #000000;
+    transform: rotate(90.06deg);
+}
+hr {
+    height: 2px;
+    background-color: black;
+    padding: 1px 1px 1px 1px;
+}
 .hr2 {
-  height: 0.5px;
-  background-color: black;
-  padding: 0.4px 0.4px 0.4px 0.4px;
+    height: 0.5px;
+    background-color: black;
+    padding: 0.4px 0.4px 0.4px 0.4px;
 }
-
-#images { 
+#images {
     width: 250px;
     height: 250px;
     margin: 100px;
-} 
-
-#images2 { 
+}
+#images2 {
     width: 250px;
     height: 250px;
     margin: 100px;
-} 
-
-h3 { 
-  margin-left: 30px;  
-} 
-
-p { 
-  display: inline; 
-  margin: 80px;
 }
-
-article p { 
+h3 {
+    margin-left: 30px;
+}
+#about {
+    display: inline;
+    margin-left: 350px;
+    /*margin-top: -50px;*/
+}
+#second-half {
+    margin-left: 150px;
+}
+article p {
     margin: 0px;
-} 
-
+}
 /*figcaption {*/
 /*    margin-top:-10px;*/
 /*} */
 
-.hello { 
-     margin-top: 20px;  
-} 
-
-
+.hello {
+    margin-top: 20px;
+}
 /*picture text*/
 
-   .list:hover .overlay {
+.list:hover .overlay {
     opacity: 1;
 }
-
-    .overlay {
+.overlay {
     opacity: 0;
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(204,204,204,0.8);
+    background: rgba(204, 204, 204, 0.8);
     border-radius: 999px;
-    width: 282px;
-    height: 282px;
+    width: 250px;
+    height: 250px;
     text-transform: uppercase;
     font-weight: bold;
     color: #fff;
-    padding: 108px 0 0 0;
+    padding: 100px 0 0 0;
     box-sizing: border-box;
     font-size: 1.4em;
-    text-shadow: 0 0 1px rgba(0,0,0,0.2);
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
     transition: all 0.5s ease;
-    cursor: default
+    cursor: default;
+    margin-left: 115px;
+    margin-top: 100px;
+}
+.name {
+    margin-left: 80px;
+    /*margin-top: 50px;*/
+}
+#cat{
+  margin-left: 110px;
+}
+.position {
+    margin-left: 110px;
+    /*margin-top: 50px;*/
+}
+#owner {
+    margin-left: 85px;
+}
+.hr3 {
+    height: 0px;
+    background-color: black;
+    padding: 0.3px 0.3px 0.3px 0.3px;
+    width: 900px;
+    margin-left: 250px;
+    margin-top: 0px;
+}
+/*.hr3 {*/
+/*  line-height: 2em;*/
+/*  position: relative;*/
+/*  outline: 0;*/
+/*  border: 0;*/
+/*  color: black;*/
+/*  text-align: center;*/
+/*  height: 1.5em;*/
+/*  opacity: 3.0;} */
+/*  :before {*/
+/*    content: '';*/
+/*// use the linear-gradient for the fading effect*/
+/*// use a solid background color for a solid bar*/
+/*    background: linear-gradient(to right, transparent, #818078, transparent);*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    height: 1px;*/
+/*  }:after {*/
+/*    content: attr(data-content);*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*    color: black;*/
+/*padding: 0em;*/
+/*    line-height: 1.5em;*/
+/*// this is really the only tricky part, you need to specify the background color of the container element...*/
+/*    color: black;*/
+/*    background-color: white;*/
+/*  }*/
+/*.hr3 {*/
+/*// height: 0px;*/
+/*// background-color: black;*/
+/*  padding: 0.3px 0.3px 0.3px 0.3px;*/
+/*  width:900px;*/
+/*  margin-left: 200px;*/
+/*margin-top: 2px;*/
+/*}*/
+
+.hr3 {
+    /*line-height: 4em;*/
+    
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    /*height: 1.5em;*/
+    
+    opacity: 3.0;
+}
+:before {
+    content: '';
+    /*// use the linear-gradient for the fading effect*/
+    /*// use a solid background color for a solid bar*/
+    
+    background: linear-gradient(to right, transparent, #818078, transparent);
+    position: absolute;
+    left: 0;
+}
+:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    margin-top: 20px;
+    padding: 0em;
+    /*line-height: 1.5em;*/
+    /*// this is really the only tricky part, you need to specify the background color of the container element...*/
+    
+    color: black;
+    background-color: white;
+}
+.hr-text {
+    z-index: 1;
+    margin-top: -200px;
+    text-decoration: underline;
 }

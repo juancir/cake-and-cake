@@ -1,116 +1,39 @@
-
-#page{
-    margin: 0 0 0 0;
+#cart {
+    height: 500px;
+    width: 950px;
+    /*background-color: gray;*/
+    margin: 50px 200px 5px 200px;
 }
-#main{
-    height: 800px;
-    width: 1100px;
-    /*background-color: grey;*/
-    z-index: -1;
+.btn {
+    margin-left: 1000px;
+    margin-bottom: 50px;
 }
-.product{
-    height:300px;
-    width:300px;
-    margin: 25px 0 0 10px;
-}
-#sidebar{
-    /*background-color: blue;*/
-    height: 800px;
-    width: 250px;
-}
-.productInfo{
-    color:black;
-    font-weight: bold;
-    margin-left: 5px;
-    padding:5px;
-}
-/*.form-group{*/
-/*    height:410px;*/
-/*    width:300px;*/
-/*    background-color: blue;*/
-/*    margin-top: -400px;*/
-/*    margin-left: 25px;*/
-/*    z-index: 10;*/
-/*}*/
-input{
-    margin: 20px 45px 10px 45px;
-}
-.pay{
-  margin-left:90px;
-}
-#cards{
-  height:40px;
-  width:290px;
-  margin-left:5px;
-}
-.input-group-addon beautiful{
-  width:20px;
-  z-index: 2;
-  margin: 5px 10px;
-  /*border-left:10px;*/
-}
-#buy{
-  margin-left:112px;
-  margin-top:20px;
-}
-#details{
-  height:400px;
-  width:720px;
-  /*background-color:blue;*/
-  margin-top:-700px;
-  margin-left:310px;
-  text-align:center;
-}
-#description{
-  text-align:center;
-}
-.other{
-  text-align:center;
-}
-h3{
-  text-align:center;
-}
-#op{
-  text-decoration:underline;
-}
-h1{
-  text-align:center;
-}
-ul{
-  text-align:center;
-  margin-left: 60px;
-}
-
 /*Footer's Code --------------------------> */
+
 footer {
-  font-size: 12px;
-  padding: 20px 0;
-  /*background-image: url("http://cdn.ek.aero/us/english/images/New-York-1_tcm272-2256848.jpg");*/
-     color: #FFF;
+    font-size: 12px;
+    padding: 20px 0;
+    /*background-image: url("http://cdn.ek.aero/us/english/images/New-York-1_tcm272-2256848.jpg");*/
+    
+    color: #FFF;
     background: black;
     -webkit-font-smoothing: antialiased;
     /*margin-top: 20px; */
 }
-
-
 footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
-
 footer ul {
-  list-style: none;
+    list-style: none;
 }
-
 footer li img {
-  width: 32px;
-  height: 32px;
+    width: 32px;
+    height: 32px;
 }
-
- footer .col-sm-4 {
-   color: #FFF; 
+footer .col-sm-4 {
+    color: #FFF;
 }
-
 /*.col-sm-6 {*/
 /*   font-family: Cursive;  */
 /*   text-align: center;*/
@@ -119,66 +42,61 @@ footer li img {
 /*}*/
 
 footer .row {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 /*------------------------------------->*/
 /*<!----------------Navigation & Navbar--------------------------->*/
+
 header {
-  padding: 20px;
+    padding: 20px;
 }
-
 header .row {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
-
 header h5 {
-  font-weight: 700;
-  margin: 0;
-  font-family: Cursive;
-  color: black;
+    font-weight: 700;
+    margin: 0;
+    font-family: Cursive;
+    color: black;
 }
-
 header nav {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  text-transform: uppercase;
-  font-weight: 800;
-  /*letter-spacing: 1px;*/
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    font-weight: 800;
+    /*letter-spacing: 1px;*/
 }
-
 header p {
-  /*padding: 0 5px;*/
-  margin-left: 3px;
-  margin: 0;
-  color: black;
+    /*padding: 0 5px;*/
+    
+    margin-left: 3px;
+    margin: 0;
+    color: black;
 }
-
-header a:hover { 
-     text-decoration: none;
+header a:hover {
+    text-decoration: none;
 }
-
-a { 
-  margin: 8px; 
-  color: black;
+a {
+    margin: 4px;
+    color: black;
 }
-
-p{
-  color:black;
-  margin: 0 0 0;
-} 
+p {
+    color: black;
+    margin: 0 0 0;
+}
 /*<!-----------------End--------------------------------------------->*/
-body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  background-color: #fff;
-  margin-bottom: -20px;
-}
 
-.form-group { 
-   width: 250px;
-   margin-left: -25px;
-   margin-top: 40px;
-} 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #fff;
+    margin-bottom: -20px;
+}
+.form-group {
+    width: 250px;
+    margin-left: -25px;
+    margin-top: 40px;
+}
