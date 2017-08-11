@@ -4,10 +4,72 @@
     /*background-color: gray;*/
     margin: 50px 200px 5px 200px;
 }
-.btn {
-    margin-left: 1000px;
+#place_order {
+    margin-left: 20px;
     margin-bottom: 50px;
 }
+
+#proceed { 
+     margin-left: 1000px;  
+     margin-top: 5p;
+} 
+
+h2{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#item1{
+    height:125px;
+    width: 960px;
+    border:1px solid black;
+    border-radius:50px;
+    /*opacity: 0.0;*/
+}
+#item2{
+    height:125px;
+    width: 960px;
+    border:1px solid black;
+    /*opacity: 0.0;*/
+    border-radius:50px;
+}
+.modal-content{
+    width: 400px;
+    /*height: 500px;*/
+    margin-left: 500px;
+    margin-top: 30px;
+    position: fixed;
+}
+
+.form-control{
+    width:300px;
+    /*margin-left:20px;*/
+}
+#item3{
+    height:125px;
+    width: 960px;
+    border:1px solid black;
+    /*opacity: 0.0;*/
+    border-radius:50px;
+}
+#item4{
+    height:125px;
+    width: 960px;
+    border:1px solid black;
+    /*opacity: 0.0;*/
+    border-radius:50px;
+}
+.form-group {
+    width: 50px;
+    margin-left: -13px;
+    margin-top: 5px;
+}
+.col-xs-2{
+    margin-top: 45px;
+    margin-left: -40px;
+    margin-right: 25px;
+    padding : 5px;
+}
+
 /*Footer's Code --------------------------> */
 
 footer {
@@ -18,7 +80,7 @@ footer {
     color: #FFF;
     background: black;
     -webkit-font-smoothing: antialiased;
-    /*margin-top: 20px; */
+    margin-top: 20px; 
 }
 footer .col-sm-8 {
     display: flex;
@@ -95,8 +157,8 @@ body {
     background-color: #fff;
     margin-bottom: -20px;
 }
-.form-group {
-    width: 250px;
-    margin-left: -25px;
-    margin-top: 40px;
-}
+/*.form-group {*/
+/*    width: 250px;*/
+/*    margin-left: -25px;*/
+/*    margin-top: 40px;*/
+/*}*/

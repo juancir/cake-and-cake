@@ -11,14 +11,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="checkout.css">
+    <script type='text/javascript' src='myscript.js'></script>
     <link rel="icon" href="//www.freefavicon.com/freefavicons/animal/cat--5-152-85909.jpg" type="image/x-icon" size="32x32">
 </head>
 
 <body>
     <header class="container">
-        <div class="row">
-            <h5 class="col-sm-8 navbar-brand">Lou's Cakes and Bakes</h5>
-            <nav class="col-sm-4">
+      <h5 class="col-xs-6 col-sm-5 col-md-6 col-lg-6  navbar-brand">Lou's Cakes and Bakes</h5>
+            <nav class="col-xs-6 col-sm-7 col-md-6 col-lg-6">
                 <p><a href="home.html">Home</a>
                 </p>
                 <p><a href="about.html">About</a>
@@ -33,10 +33,188 @@
         </div>
     </header>
     <!----->
+    <h2>Your Order:</h2>
     <div id="cart">
-
+        <div id="item1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-1"></div>
+                    <div class="col-xs-2">
+                        <img id="preset1" src="">
+                    </div>
+                    <div class="col-xs-2">
+                        <p>Oreo Cake<p>
+                    </div>
+                    <div class="col-xs-2">
+                    <div class="qty-changer">
+                        <strong><u><p>Qty</p></u></strong> <input class="qty-input form-group" type="number" value="1"/>
+                    </div>
+                    </div>
+                    <div class="col-xs-2">
+                        <p>2 Layered Cake With<br> Milks Favorite Cookie</p>
+                    </div>
+                    <div class="col-xs-2">
+                        <p>$50</p>
+                    </div>
+                    <div class="col-xs-1"></div>
+                </div>    
+            </div>
+        </div>
+            <!---->
+        <div id="item2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-1"></div>
+                    <div class="col-xs-2">
+                        <img id="preset2" src="">
+                    </div>
+                    <div class="col-xs-2">
+                        <p>Peanut Butter Cookies<p>
+                    </div>
+                    <div class="col-xs-2">
+                    <div class="qty-changer">
+                        <strong><u><p>Qty</p></u></strong> <input class="qty-input form-group" type="number" value="10"/>
+                    </div>
+                    </div>
+                    <div class="col-xs-2">
+                        <p>Gluten Free.</p>
+                    </div>
+                    <div class="col-xs-2">
+                        <p>$30.00 ($3.00 per cookie)</p>
+                    </div>
+                    <div class="col-xs-1"></div>
+                </div>    
+            </div>
+        </div>
+            <!---->
+        <div id="item3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-1"></div>
+                    <div class="col-xs-2">
+                        <img id="preset3" src="">
+                    </div>
+                    <div class="col-xs-2">
+                        <p>Herb Loaf Bread<p>
+                    </div>
+                    <div class="col-xs-2">
+                    <div class="qty-changer">
+                        <strong><u><p>Qty</p></u></strong> <input class="qty-input form-group" type="number" value="2"/>
+                    </div>
+                    </div>
+                    <div class="col-xs-2">
+                        <p>2 Loafs of bread</p>
+                    </div>
+                    <div class="col-xs-2">
+                        <p>$5.00 ($2.50 per loaf)</p>
+                    </div>
+                    <div class="col-xs-1"></div>
+                </div>    
+            </div>
+        </div>
+            <!---->
+        <div id="item4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-1"></div>
+                    <div class="col-xs-2">
+                        <img id="preset4" src="">
+                    </div>
+                    <div class="col-xs-2">
+                        <p>Custom Cake<p>
+                    </div>
+                    <div class="col-xs-2">
+                    <div class="qty-changer">
+                        <strong><u><p>Qty</p></u></strong> <input class="qty-input form-group" type="number" value="1"/>
+                    </div>
+                    </div>
+                    <div class="col-xs-2">
+                        <p>4 Layer Chocalate Cake. Gluten free</p>
+                    </div>
+                    <div class="col-xs-2">
+                        <p>$150</p>
+                    </div>
+                    <div class="col-xs-1"></div>
+                </div>    
+            </div>
+        </div>
     </div>
-    <button class="btn btn-primary">Proceed to checkout</button>
+    <!--<p class="state"></p>  -->
+    <!--<button class="btn btn-primary">Proceed to checkout</button>-->
+    <!----->
+    <!-- Trigger the modal with a button -->
+<button type="button" id="proceed" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Proceed to checkout</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Complete form to purchase</h4>
+      </div>
+      <div class="modal-body">
+        <!---->
+        <div class="container">
+
+  <form>
+    <div class="form-group">
+      <label for="usr">Name:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+      <label for="usr">Email:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+      <label for="usr">Phone:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+      <label for="usr">Address:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+      
+      <label for="sel2">Payment Option</label>
+      <select multiple class="form-control" id="sel2">
+        <option>Cash</option>
+        <option>Cheque</option>
+        <option>money order payments</option>
+        <option>online payments (Paypal)</option>
+        <option>gift cards and vouchers</option>
+      </select>
+    </div>
+  </form>
+</div>
+        <!---->
+      </div>
+      <div class="modal-footer">
+        <button id="place_order" type="button" data-toggle="modal" data-target="#order" class="btn btn-success">Place Order</button>
+      </div>
+    </div>
+  </div> 
+  
+  <!-- Modal -->
+<div id="order" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Thanks!</h4>
+      </div>
+      <div class="modal-body">
+        <p>Your order has been placed.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
     <!----->
     <footer id="contact" class="container-fluid">
         <div class="row">

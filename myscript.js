@@ -11,16 +11,26 @@ $('#carousel-generic-example').carousel({
     pause: "false" /* Change to true to make it paused when your mouse cursor enter the background */
 });
 
-// 
-function clickCounter() {
-    if(typeof(Storage) !== "undefined") {
-        if (localStorage.clickcount) {
-            localStorage.clickcount = Number(localStorage.clickcount)+1;
-        } else {
-            localStorage.clickcount = 1;
-        }
-        document.getElementById("result").innerHTML = "You have ordered " + localStorage.clickcount + " item(s).";
-    } else {
-        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
-    }console.log(clickCounter);
-}
+// $(window).on('resize', function() {
+//     if($(window).height() > 768) {
+//         $('#gallery').addClass('gal');
+//         $('#gallery').removeClass('gal');
+//     }else{
+//         $('#gallery').addClass('gal');
+//         $('#gallery').removeClass('gal');
+//     }
+// })
+
+
+
+
+
+
+
+
+
+// $(document).ready( function () { 
+// $(".modal-footer #place_order").click(function(){
+//     alert("Your order has been placed!");
+// });
+// });

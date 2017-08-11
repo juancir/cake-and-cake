@@ -87,6 +87,7 @@ a {
 /*}*/
 /*Footer's Code --------------------------> */
 
+
 footer {
     font-size: 12px;
     margin-top: 55px;
@@ -204,6 +205,9 @@ hr {
     background-color: black;
     padding: 0.4px 0.4px 0.4px 0.4px;
 }
+hr-text{
+    font-size: 48px;
+}
 #images {
     width: 250px;
     height: 250px;
@@ -219,11 +223,20 @@ h3 {
 }
 #about {
     display: inline;
-    margin-left: 350px;
-    /*margin-top: -50px;*/
+    margin-left: 180px;
+    font-size: 24px;/*margin-top: -50px;*/
 }
 #second-half {
-    margin-left: 150px;
+    margin-left: 130px;
+    font-size: 24px;
+}
+#numero-tres{
+    margin-left: 370px;
+    font-size: 24px;
+    margin-top: -10px;
+}
+.cabeza{
+    /*margin:0 15px 0 15px;*/
 }
 article p {
     margin: 0px;
@@ -262,8 +275,14 @@ article p {
     margin-top: 100px;
 }
 .name {
-    margin-left: 80px;
+    margin-left: 85px;
     /*margin-top: 50px;*/
+}
+#jump{
+    margin-left: -20px;
+}
+#name{
+    margin-left: 70px;
 }
 #cat{
   margin-left: 110px;
@@ -282,6 +301,8 @@ article p {
     width: 900px;
     margin-left: 250px;
     margin-top: 0px;
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 /*.hr3 {*/
 /*  line-height: 2em;*/

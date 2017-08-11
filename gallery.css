@@ -207,13 +207,14 @@ button.qty-change{
     -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+} 
 /*}*/
 /*<!--------------------End of Code---------------------------------------->*/
 /*#images { */
 /*   margin-left: 100px;*/
 /*} */
 /*Footer's Code --------------------------> */
-footer {
+ footer {
     font-size: 12px;
     padding: 20px 0px;
     /*background-image: url("http://cdn.ek.aero/us/english/images/New-York-1_tcm272-2256848.jpg");*/
@@ -264,6 +265,41 @@ footer .row {
 /*margin-right: 10px;*/
 /*}*/
 
-#gal {
-    margin-left: 100px;
-}
+/*.gal {*/
+/*    margin-left: 100px;*/
+/*}*/
+
+.col-xs-7 { 
+     margin-left: -20px;  
+} 
+
+/*Testing features*/
+
+
+/*.navbar-toggle .icon-bar:nth-of-type(2) {*/
+/*	  top: 1px;*/
+/*}*/
+
+/*.navbar-toggle .icon-bar:nth-of-type(3) {*/
+/*  	top: 2px;*/
+/*}*/
+
+/*.navbar-toggle .icon-bar {*/
+/*	  position: relative;*/
+/*	  transition: all 500ms ease-in-out;*/
+/*}*/
+
+/*.navbar-toggle.active .icon-bar:nth-of-type(1) {*/
+/*	  top: 6px;*/
+/*	  transform: rotate(45deg);*/
+/*}*/
+
+/*.navbar-toggle.active .icon-bar:nth-of-type(2) {*/
+/*	  background-color: transparent;*/
+/*}*/
+
+/*.navbar-toggle.active .icon-bar:nth-of-type(3) {*/
+/*	  top: -6px;*/
+/*	  transform: rotate(-45deg);*/
+/*}*/
+

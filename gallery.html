@@ -13,6 +13,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type='text/javascript' src='myscript.js'></script>
     <link rel="stylesheet" type="text/css" href="gallery.css">
+    <link rel="stylesheet" type="text/css" href="gallery.less">
     <link rel="icon" href="//www.freefavicon.com/freefavicons/animal/cat--5-152-85909.png" type="image/x-icon" size="32x32">
 </head>
 
@@ -20,9 +21,9 @@
     <!------------Navigation & Navbar---------------------------------------------->
     <header class="container">
         <div class="row">
-            <h5 class="col-sm-8 navbar-brand">Lou's Cakes and Bakes</h5>
-            <nav class="col-sm-4">
-                <p><a href="home.html">Home</a>
+            <h5 class="col-xs-6 col-sm-5 col-md-6 col-lg-6  navbar-brand">Lou's Cakes and Bakes</h5>
+            <nav class="col-xs-6 col-sm-7 col-md-6 col-lg-6">
+                <p><a href="home.html" class="active" aria-pressed="true">Home</a>
                 </p>
                 <p><a href="about.html">About</a>
                 </p>
@@ -34,16 +35,16 @@
                 </p>
             </nav>
         </div>
+        
     </header>
     <!-------------------End of Code--------------------------------------------------->
     <div class="jumbotron">
         <p id="jumbo_text">We make our cake with passion and use goods from imported countries and these goods are so good that they will make you want to come back for more cake. Satisfy your sweet tooth.</p>
     </div>
     <!-----------Gallery Images-------------------------------------------------------->
-    
+    <div class="gal" id="gallery">
     <div class="container">
-        <div class"row">
-            <div id="gal">
+        <div class= "row">
         <div class='row container' id="images">
             <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
                 <div data-toggle="modal" data-target="#cake1">
@@ -89,6 +90,7 @@
                     <img id="img4" class="img-responsive img-circle" src="https://scontent-lga3-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/20067159_1136464863119630_8934791818436935680_n.jpg">
                 </div>
             </div>
+            </div> 
         </div>
 
 
@@ -120,7 +122,7 @@
         <div id="cake1" class="modal fade" role="dialog">
             <div class="modal-content" id="img1_modal">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h3>Oreo Cake</h3>
                 </div>
                 <div class="modal-body">
@@ -128,9 +130,9 @@
                 </div>
                 <div class="modal-footer">
                     <p><strong>Price:</strong>
-                        <p>$31.00</p>
+                        <p>$35.00</p>
                     </p>
-                    <button class="btn btn-info" data-dismiss="modal">Checkout</button>
+                    <button id="btn1" class="btn btn-info" data-dismiss="modal">Checkout</button>
                 </div>
             </div>
             </div>
@@ -144,6 +146,7 @@
         <div id="cake2" class="modal fade">
             <div class="modal-content" id="img2_modal">
                 <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h3>Vanilla Nest Cake</h3>
                 </div>
                 <div class="modal-body">
@@ -151,9 +154,9 @@
                 </div>
                 <div class="modal-footer">
                     <p><strong>Price:</strong>
-                        <p>$31.00</p>
+                        <p>$30.00</p>
                     </p>
-                    <button class="btn btn-info" data-dismiss="modal">Checkout</button>
+                    <button id="btn2" class="btn btn-info" data-dismiss="modal">Checkout</button>
                 </div>
             </div>
         </div>
@@ -161,6 +164,7 @@
         <div id="cake3" class="modal fade">
             <div class="modal-content" id="img3_modal">
                 <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h3>Banana Bundt Cake</h3>
                 </div>
                 <div class="modal-body">
@@ -168,7 +172,7 @@
                 </div>
                 <div class="modal-footer">
                     <p><strong>Price:</strong>
-                        <p>$31.00</p>
+                        <p>$12.00</p>
                     </p>
                     <button class="btn btn-info" data-dismiss="modal">Checkout</button>
                 </div>
@@ -178,6 +182,7 @@
         <div id="cake4" class="modal fade">
             <div class="modal-content" id="img4_modal">
                 <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h3>Cinnamon Brown Sugar Cake with Maple Cream Cheese Frosting</h3>
                 </div>
                 <div class="modal-body">
@@ -185,7 +190,7 @@
                 </div>
                 <div class="modal-footer">
                     <p><strong>Price:</strong>
-                        <p>$31.00</p>
+                        <p>$25.00</p>
                     </p>
                     <button class="btn btn-info" data-dismiss="modal">Checkout</button>
                 </div>
@@ -195,14 +200,15 @@
         <div id="cake5" class="modal fade">
             <div class="modal-content" id="img5_modal">
                 <div class="modal-header">
-                    <h3>Peanut butter Cookies</h3>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                     <h3>Peanut butter Cookies</h3>
                 </div>
                 <div class="modal-body">
                     <p>Some text in the modal</p>
                 </div>
                 <div class="modal-footer">
                     <p><strong>Price:</strong>
-                        <p>$31.00</p>
+                        <p>$3.00</p>
                     </p>
                     <button class="btn btn-info" data-dismiss="modal">Checkout</button>
                 </div>
@@ -212,6 +218,7 @@
         <div id="cake6" class="modal fade">
             <div class="modal-content" id="img6_modal">
                 <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h3>8 Layered Wedding Cake</h3>
                 </div>
                 <div class="modal-body">
@@ -229,14 +236,15 @@
         <div id="cake7" class="modal fade">
             <div class="modal-content" id="img7_modal">
                 <div class="modal-header">
-                    <h3>Herb Loaf Bread</h3>
+                   <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h3>Herb Loaf Bread</h3>
                 </div>
                 <div class="modal-body">
                     <p>Some text in the modal</p>
                 </div>
                 <div class="modal-footer">
                     <p><strong>Price:</strong>
-                        <p>$31.00</p>
+                        <p>$10.00</p>
                     </p>
                     <button class="btn btn-info" data-dismiss="modal">Checkout</button>
                 </div>
@@ -246,14 +254,15 @@
         <div id="cake8" class="modal fade">
             <div class="modal-content" id="img8_modal">
                 <div class="modal-header">
-                    <h3>FunFetti Vannilla Cake</h3>
+                   <button type="button" class="close" data-dismiss="modal">&times;</button>
+                     <h3>FunFetti Vanilla Cake</h3>
                 </div>
                 <div class="modal-body">
                     <p>Some text in the modal</p>
                 </div>
                 <div class="modal-footer">
                     <p><strong>Price:</strong>
-                        <p>$31.00</p>
+                        <p>$21.00</p>
                     </p>
                     <button class="btn btn-info" data-dismiss="modal">Checkout</button>
                 </div>
@@ -327,8 +336,8 @@
                                     <div class="container">
                                         <div class="row">
                                         <form>
-                                            <div class="qty-changer" class="col-sm-4">
-                                                <strong><u><p>Qty</p></u></strong> <input class="qty-input form-group" type="number" value="1"/>
+                                            <div class="qty-changer" class="col-md-4">
+                                                <strong><u><p>Qty</u></strong>(Layers For Cake & Loafs for bread)</p><input class="qty-input form-group" type="number" value="1"/>
                                             </div>
                                         </form>
                                     <!---->
@@ -349,12 +358,39 @@
                                                 </select>
                                             </div>
                                         </form>
+                                        <form>
+                                            <div class="form-group" class="col-md-8">
+                                                <label for="sel2">Frosting</label><br>
+                                                <select multiple class="form-control" id="sel2">
+                                                    <option>Buttercream</option>
+                                                    <option>Cream Cheese Frosting</option>
+                                                    <option>Swiss Meringue Buttercream</option>
+                                                    <option>Ganache</option>
+                                                    <option>Whipped Cream</option>
+                                                    <option>Chocolate Cream Cheese Frosting</option>
+                                                    <option>Brown Sugar Frosting</option>
+                                                </select>
+                                            </div>
+                                        </form>
+                                        <form>
+                                            <div class="form-group" class="col-md-8">
+                                                <label for="sel2">Types Of Bread</label><br>
+                                                <select multiple class="form-control" id="sel2">
+                                                    <option>Bara Brith</option>
+                                                    <option>Sandwich</option>
+                                                    <option>Bagel</option>
+                                                    <option>Baguette</option>
+                                                    <option>Naan</option>
+                                                    <option>Tortilla</option>
+                                                </select>
+                                            </div>
+                                        </form>
                                     </div>
                                     <!---->
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <button class="btn btn-info" data-dismiss="modal">Checkout</button>
+                                    <a href="checkout.html" class="btn btn-info">Checkout</a>
                                 </div>
                             </div>
                         </div>
@@ -376,24 +412,44 @@
                         <!--     </div> -->
                         <!--</div>-->
                     <!-------------Footer------------------------------------------------------>
-                    <footer id="contact" class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-                            <p id="copyright" class="col-sm-4">&copy; 2017 Lou's Cakes and Bakes</p>
-                            <ul class="col-sm-8 col-md-8 col-lg-8">
-                                <li class="col-sm-1 col-md-1">
-                                    <a href="https://twitter.com/louisgabrie">
-                                        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"> </a>
-                                </li>
-                                <li class="col-sm-1 col-md-1">
-                                    <a href="https://instagram.com/a_visual_bliss">
-                                        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"> </a>
-                                </li>
+                    <!--<footer id="contact" class="container-fluid">-->
+                    <!--    <div class="row">-->
+                    <!--        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">-->
+                    <!--        <p id="copyright" class="col-xs-5 col-sm-4 col-md-3 col-lg-5">&copy; 2017 Lou's Cakes and Bakes</p>-->
+                    <!--        <ul class="col-xs-7 col-sm-8 col-md-9 col-lg-7">-->
+                    <!--            <li class="col-sm-2 col-xs-5">-->
+                    <!--                <a href="https://twitter.com/louisgabrie">-->
+                    <!--                    <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"> </a>-->
+                    <!--            </li>-->
+                    <!--            <li class="col-sm-2 col-xs-1">-->
+                    <!--                <a href="https://instagram.com/a_visual_bliss">-->
+                    <!--                    <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"> </a>-->
+                    <!--            </li>-->
                                 
-                            </ul>
-                        </div>
-                        </div>
-                    </footer>
+                    <!--        </ul>-->
+                    <!--    </div>-->
+                    <!--    </div>-->
+                    <!--</footer>-->
+                    
+                     <footer id="contact" class="container-fluid">
+        <div class="row">
+            <p id="copyright" class="col-sm-4">&copy; 2017 Lou's Cakes and Bakes</p>
+            <ul class="col-sm-8">
+                <li class="col-sm-1">
+                    <a href="https://twitter.com">
+                        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"> </a>
+                </li>
+                <li class="col-sm-1">
+                    <a href="https://instagram.com/sweetloucakesandbakes">
+                        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"> </a>
+                </li>
+                <li class="col-sm-1">
+                    <a href="https://facebook.com">
+                        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg"> </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
                     
                 
                     
